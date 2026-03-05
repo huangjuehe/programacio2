@@ -1,0 +1,48 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Build directories
+build/
+dist/
+bin/
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+*~
+.*.swp
+
+# Java specific
+hs_err_pid*
+replay_pid*
