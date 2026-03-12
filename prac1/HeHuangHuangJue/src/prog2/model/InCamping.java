@@ -59,7 +59,6 @@ public interface InCamping {
      */
     void afegirClient(String nom_, String dni_);
 
-
     /**
      * Afegeix una nova parcel·la a la llista d'allotjaments.
      * @param nom_ el nom de la parcela.
