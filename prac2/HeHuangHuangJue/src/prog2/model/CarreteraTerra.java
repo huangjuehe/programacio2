@@ -1,0 +1,25 @@
+package prog2.model;
+
+import java.io.Serializable;
+
+public class CarreteraTerra extends AccesTerra implements Serializable {
+    private float amplada;
+
+    public CarreteraTerra(String nom, boolean estat, float longitud, float amplada) {
+        super(nom, estat, longitud);
+        this.amplada = amplada;
+    }
+
+    public float getAmplada() { return this.amplada; }
+    public void setAmplada(float amplada) { this.amplada = amplada; }
+
+    @Override
+    public boolean isAccessibilitat() {
+        return true; // La carretera sí permet accessibilitat amb vehicle
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + " Tipus: Carretera de Terra {longitud=" + this.getLongitud() + ", amplada=" + this.amplada + "}";
+    }
+}
